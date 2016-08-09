@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Workspace>
+  <ConfigDictionary>
+    
+  <CurrentConfigs><Project>MSP430_UART/Release</Project><Project>MSP430_UART/Debug</Project></CurrentConfigs><CurrentProj>MSP430_UART</CurrentProj><OverviewSelected>0</OverviewSelected></ConfigDictionary>
+  <Desktop>
+    <Static>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>328</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+      </Workspace>
+      <Build>
+        
+        
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>786</ColumnWidth1><ColumnWidth2>261</ColumnWidth2><ColumnWidth3>65</ColumnWidth3></Build>
+    <Debug-Log><ColumnWidth0>19</ColumnWidth0><ColumnWidth1>1308</ColumnWidth1></Debug-Log><TerminalIO/></Static>
+    <Windows>
+      
+      
+    <Wnd0>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-12829-5602</Identity>
+            <TabName>Workspace</TabName>
+            <Factory>Workspace</Factory>
+            <Session>
+              
+            <NodeDict><ExpandedNode>MSP430_UART</ExpandedNode><ExpandedNode>MSP430_UART/src</ExpandedNode></NodeDict></Session>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd0><Wnd1>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-2144-6007</Identity>
+            <TabName>Build</TabName>
+            <Factory>Build</Factory>
+            <Session/>
+          </Tab>
+        <Tab><Identity>TabID-3059-12618</Identity><TabName>Debug Log</TabName><Factory>Debug-Log</Factory><Session/></Tab></Tabs>
+        
+      <SelectedTab>1</SelectedTab></Wnd1></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\src\msp430x54xA_uart_1.c</Filename><XPos>0</XPos><YPos>124</YPos><SelStart>4898</SelStart><SelEnd>4898</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\src\utils.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>881</SelStart><SelEnd>889</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\src\utils.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>69</SelStart><SelEnd>69</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\src\ir_lora.h</Filename><XPos>0</XPos><YPos>17</YPos><SelStart>904</SelStart><SelEnd>978</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\src\msp430x54xA_uart_2.c</Filename><XPos>0</XPos><YPos>125</YPos><SelStart>4888</SelStart><SelEnd>4888</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\src\msp430x54xA_uart_3.c</Filename><XPos>0</XPos><YPos>123</YPos><SelStart>4890</SelStart><SelEnd>4890</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\src\msp430x54xA_uart_0.c</Filename><XPos>0</XPos><YPos>130</YPos><SelStart>5489</SelStart><SelEnd>5489</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\src\key.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>469</SelStart><SelEnd>469</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.0 Evaluation\430\config\MSP430F5438A.ddf</Filename><XPos>0</XPos><YPos>12</YPos><SelStart>596</SelStart><SelEnd>596</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\src\msp430x54xA_adc12_02.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\src\main.c</Filename><XPos>0</XPos><YPos>51</YPos><SelStart>1552</SelStart><SelEnd>1552</SelEnd></Tab><ActiveTab>10</ActiveTab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\src\protocol.h</Filename><XPos>0</XPos><YPos>17</YPos><SelStart>776</SelStart><SelEnd>776</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\src\protocol.c</Filename><XPos>0</XPos><YPos>192</YPos><SelStart>5883</SelStart><SelEnd>5891</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\src\led.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\src\led.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\src\ir_lora.c</Filename><XPos>0</XPos><YPos>27</YPos><SelStart>1009</SelStart><SelEnd>1009</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\MSP430F5438A_Lora_Dongle\src\main.c</Filename><XPos>0</XPos><YPos>45</YPos><SelStart>1480</SelStart><SelEnd>1480</SelEnd></Tab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-05af0968><key>iaridepm.enu1</key></Toolbar-05af0968></Sizes></Row0></Top><Left><Row0><Sizes><Wnd0><Rect><Top>-2</Top><Left>-2</Left><Bottom>733</Bottom><Right>402</Right><x>-2</x><y>-2</y><xscreen>0</xscreen><yscreen>0</yscreen><sizeHorzCX>0</sizeHorzCX><sizeHorzCY>0</sizeHorzCY><sizeVertCX>210417</sizeVertCX><sizeVertCY>737212</sizeVertCY></Rect></Wnd0></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes><Wnd1><Rect><Top>-2</Top><Left>-2</Left><Bottom>219</Bottom><Right>1922</Right><x>-2</x><y>-2</y><xscreen>1924</xscreen><yscreen>221</yscreen><sizeHorzCX>1002083</sizeHorzCX><sizeHorzCY>221665</sizeHorzCY><sizeVertCX>0</sizeVertCX><sizeVertCY>0</sizeVertCY></Rect></Wnd1></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Workspace>
+
+
