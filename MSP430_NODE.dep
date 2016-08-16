@@ -6,110 +6,87 @@
   <configuration>
     <name>Debug</name>
     <outputs>
-      <file>$PROJ_DIR$\Debug\Obj\ir_lora.pbi</file>
-      <file>$PROJ_DIR$\Debug\Obj\protocol.pbi</file>
-      <file>$PROJ_DIR$\Debug\Exe\MSP430_UART.txt</file>
-      <file>$TOOLKIT_DIR$\inc\dlib\c\xencoding_limits.h</file>
-      <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\msp430x54xA_uart_1.pbi</file>
-      <file>$PROJ_DIR$\src\protocol.c</file>
-      <file>$PROJ_DIR$\src\msp430x54xA_adc12_02.c</file>
-      <file>$PROJ_DIR$\src\protocol.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\msp430x54xA_adc12_02.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\ystdio.h</file>
+      <file>$PROJ_DIR$\src\ir_lora.h</file>
+      <file>$PROJ_DIR$\src\main.c</file>
       <file>$PROJ_DIR$\src\msp430x54xA_uart_1.c</file>
-      <file>$PROJ_DIR$\Debug\Obj\msp430x54xA_uart_3.pbi</file>
       <file>$PROJ_DIR$\src\key.c</file>
       <file>$PROJ_DIR$\src\led.c</file>
+      <file>$PROJ_DIR$\src\msp430x54xA_adc12_02.c</file>
+      <file>$PROJ_DIR$\src\msp430x54xA_uart_2.c</file>
+      <file>$PROJ_DIR$\src\protocol.c</file>
+      <file>$PROJ_DIR$\src\msp430x54xA_uart_3.c</file>
+      <file>$PROJ_DIR$\src\uart.h</file>
       <file>$PROJ_DIR$\src\msp430x54xA_uart_0.c</file>
       <file>$PROJ_DIR$\src\ir_lora.c</file>
-      <file>$PROJ_DIR$\src\main.c</file>
-      <file>$PROJ_DIR$\src\msp430x54xA_uart_3.c</file>
-      <file>$PROJ_DIR$\src\ir_lora.h</file>
-      <file>$PROJ_DIR$\src\msp430x54xA_uart_2.c</file>
-      <file>$TOOLKIT_DIR$\inc\msp430x54x.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\msp430x54xA_uart_3.pbi</file>
+      <file>$PROJ_DIR$\Debug\Exe\MSP430_UART.txt</file>
       <file>$PROJ_DIR$\Debug\Obj\msp430x54xA_uart_0.pbi</file>
-      <file>$PROJ_DIR$\Debug\Obj\main.r43</file>
-      <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Threads.h</file>
-      <file>$TOOLKIT_DIR$\inc\msp430.h</file>
-      <file>$TOOLKIT_DIR$\inc\dlib\c\string.h</file>
-      <file>$TOOLKIT_DIR$\inc\dlib\c\stdio.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\led.pbi</file>
-      <file>$PROJ_DIR$\Debug\Obj\msp430x54xA_adc12_02.pbi</file>
       <file>$PROJ_DIR$\Debug\Obj\msp430x54xA_adc12_02.r43</file>
-      <file>$TOOLKIT_DIR$\config\multiplier32_loc2.xcl</file>
-      <file>$TOOLKIT_DIR$\inc\dlib\c\ystdio.h</file>
-      <file>$TOOLKIT_DIR$\inc\dlib\c\yvals.h</file>
-      <file>$PROJ_DIR$\main.c</file>
-      <file>$PROJ_DIR$\src\uart.h</file>
-      <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Product.h</file>
-      <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Defaults.h</file>
-      <file>$TOOLKIT_DIR$\inc\dlib\c\ysizet.h</file>
+      <file>$PROJ_DIR$\src\protocol.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.r43</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\string.h</file>
+      <file>$TOOLKIT_DIR$\inc\msp430.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\stdio.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\xencoding_limits.h</file>
       <file>$PROJ_DIR$\src\utils.c</file>
-      <file>$TOOLKIT_DIR$\lib\dlib\dl430xsfn.h</file>
-      <file>$TOOLKIT_DIR$\inc\in430.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\MSP430_NODE.pbd</file>
-      <file>$PROJ_DIR$\Debug\Obj\key.pbi</file>
-      <file>$TOOLKIT_DIR$\inc\dlib\c\stdlib.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\led.r43</file>
-      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
-      <file>$PROJ_DIR$\Debug\Obj\MSP430_UART.pbd</file>
-      <file>$PROJ_DIR$\src\utils.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\msp430x54xA_uart_2.pbi</file>
-      <file>$TOOLKIT_DIR$\inc\dlib\c\ycheck.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\utils.pbi</file>
-      <file>$TOOLKIT_DIR$\inc\msp430f5438a.h</file>
-      <file>$PROJ_DIR$\Debug\Exe\MSP430_UART.d43</file>
-      <file>$PROJ_DIR$\Debug\Obj\key.r43</file>
-      <file>$TOOLKIT_DIR$\lib\dlib\dl430xsfn.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\ir_lora.pbi</file>
+      <file>$TOOLKIT_DIR$\config\multiplier32_loc2.xcl</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Threads.h</file>
+      <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\msp430x54xA_uart_1.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\led.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\protocol.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\msp430x54x.h</file>
       <file>$TOOLKIT_DIR$\config\lnk430F5438A.xcl</file>
+      <file>$TOOLKIT_DIR$\lib\dlib\dl430xsfn.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\key.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\led.r43</file>
+      <file>$PROJ_DIR$\main.c</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\ysizet.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\MSP430_UART.pbd</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Product.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\MSP430_NODE.pbd</file>
+      <file>$TOOLKIT_DIR$\lib\dlib\dl430xsfn.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\ycheck.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\msp430x54xA_uart_2.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\in430.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\stdlib.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\yvals.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Defaults.h</file>
+      <file>$PROJ_DIR$\src\utils.h</file>
+      <file>$TOOLKIT_DIR$\inc\msp430f5438a.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\key.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\utils.pbi</file>
+      <file>$PROJ_DIR$\Debug\Exe\MSP430_UART.d43</file>
     </outputs>
     <file>
       <name>[ROOT_NODE]</name>
       <outputs>
         <tool>
           <name>XLINK</name>
-          <file> 51 2</file>
+          <file> 54 15</file>
         </tool>
       </outputs>
     </file>
     <file>
-      <name>$PROJ_DIR$\src\protocol.c</name>
+      <name>$PROJ_DIR$\src\main.c</name>
       <outputs>
         <tool>
           <name>BICOMP</name>
-          <file> 1</file>
+          <file> 40</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
           <name>BICOMP</name>
-          <file> 8 42 48 31 35 34 3 22 36 25 30 24 17</file>
+          <file> 32 46 28 47 44 48 49 41 23 27 38 22 1 20</file>
         </tool>
         <tool>
           <name>ICC430</name>
-          <file> 8 42 48 31 35 38 34 3 22 36 25 30 24 17</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\src\msp430x54xA_adc12_02.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 27</file>
-        </tool>
-        <tool>
-          <name>ICC430</name>
-          <file> 28</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 23 50 39 4</file>
-        </tool>
-        <tool>
-          <name>ICC430</name>
-          <file> 23 50 39 4</file>
+          <file> 32 46 28 47 44 48 49 43 41 23 27 38 22 1 20</file>
         </tool>
       </inputs>
     </file>
@@ -118,17 +95,17 @@
       <outputs>
         <tool>
           <name>BICOMP</name>
-          <file> 5</file>
+          <file> 29</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
           <name>BICOMP</name>
-          <file> 23 50 39 4 42 48 31 35 34 3 22 36 25 30 24</file>
+          <file> 21 51 46 28 47 44 48 49 41 23 27 38 22 1 20</file>
         </tool>
         <tool>
           <name>ICC430</name>
-          <file> 23 50 39 4</file>
+          <file> 21 51 46 28</file>
         </tool>
       </inputs>
     </file>
@@ -137,21 +114,21 @@
       <outputs>
         <tool>
           <name>BICOMP</name>
-          <file> 41</file>
+          <file> 52</file>
         </tool>
         <tool>
           <name>ICC430</name>
-          <file> 52</file>
+          <file> 35</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
           <name>BICOMP</name>
-          <file> 19 39 4 42 48 31 35 34 3 22 36 25 30 24</file>
+          <file> 32 46 28 47 44 48 49 41 23 27 38 22 1 20</file>
         </tool>
         <tool>
           <name>ICC430</name>
-          <file> 19 39 4 42 48 31 35 38 34 3 22 36 25 30 24</file>
+          <file> 32 46 28 47 44 48 49 43 41 23 27 38 22 1 20</file>
         </tool>
       </inputs>
     </file>
@@ -160,87 +137,34 @@
       <outputs>
         <tool>
           <name>BICOMP</name>
-          <file> 26</file>
+          <file> 30</file>
         </tool>
         <tool>
           <name>ICC430</name>
-          <file> 43</file>
+          <file> 36</file>
         </tool>
       </outputs>
     </file>
     <file>
-      <name>$PROJ_DIR$\src\msp430x54xA_uart_0.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 20</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 23 50 39 4 42 48 31 35 34 3 22 36 25 30 24</file>
-        </tool>
-        <tool>
-          <name>ICC430</name>
-          <file> 23 50 39 4</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\src\ir_lora.c</name>
+      <name>$PROJ_DIR$\src\msp430x54xA_adc12_02.c</name>
       <outputs>
         <tool>
           <name>BICOMP</name>
           <file> 0</file>
         </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 17 42 48 31 35 34 3 22 36 25 30 24 33 8 46 23 50 39 4</file>
-        </tool>
         <tool>
           <name>ICC430</name>
-          <file> 17 42 48 31 35 38 34 3 22 36 25 30 24</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\src\main.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 44</file>
+          <file> 17</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
           <name>BICOMP</name>
-          <file> 19 39 4 42 48 31 35 34 3 22 36 25 30 24</file>
+          <file> 21 51 46 28</file>
         </tool>
         <tool>
           <name>ICC430</name>
-          <file> 19 39 4 42 48 31 35 38 34 3 22 36 25 30 24</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\src\msp430x54xA_uart_3.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 10</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 23 50 39 4 42 48 31 35 34 3 22 36 25 30 24</file>
-        </tool>
-        <tool>
-          <name>ICC430</name>
-          <file> 23 50 39 4</file>
+          <file> 21 51 46 28</file>
         </tool>
       </inputs>
     </file>
@@ -249,36 +173,93 @@
       <outputs>
         <tool>
           <name>BICOMP</name>
-          <file> 47</file>
+          <file> 45</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
           <name>BICOMP</name>
-          <file> 23 50 39 4 42 48 31 35 34 3 22 36 25 30 24</file>
+          <file> 21 51 46 28 47 44 48 49 41 23 27 38 22 1 20</file>
         </tool>
         <tool>
           <name>ICC430</name>
-          <file> 23 50 39 4</file>
+          <file> 21 51 46 28</file>
         </tool>
       </inputs>
     </file>
     <file>
-      <name>$PROJ_DIR$\main.c</name>
+      <name>$PROJ_DIR$\src\protocol.c</name>
       <outputs>
         <tool>
           <name>BICOMP</name>
-          <file> 44</file>
-        </tool>
-        <tool>
-          <name>ICC430</name>
-          <file> 21</file>
+          <file> 31</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
+          <name>BICOMP</name>
+          <file> 18 47 44 48 49 41 23 27 38 22 1 20 2</file>
+        </tool>
+        <tool>
           <name>ICC430</name>
-          <file> 19 39 4</file>
+          <file> 18 47 44 48 49 43 41 23 27 38 22 1 20 2</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\msp430x54xA_uart_3.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 14</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 21 51 46 28 47 44 48 49 41 23 27 38 22 1 20</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 21 51 46 28</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\msp430x54xA_uart_0.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 16</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 21 51 46 28 47 44 48 49 41 23 27 38 22 1 20</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 21 51 46 28</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\ir_lora.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 25</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 2 47 44 48 49 41 23 27 38 22 1 20 11 18 50 21 51 46 28</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 2 47 44 48 49 43 41 23 27 38 22 1 20</file>
         </tool>
       </inputs>
     </file>
@@ -287,26 +268,36 @@
       <outputs>
         <tool>
           <name>BICOMP</name>
-          <file> 49</file>
+          <file> 53</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
           <name>BICOMP</name>
-          <file> 23 50 39 4</file>
+          <file> 21 51 46 28</file>
         </tool>
         <tool>
           <name>ICC430</name>
-          <file> 23 50 39 4</file>
+          <file> 21 51 46 28</file>
         </tool>
       </inputs>
     </file>
     <file>
-      <name>$PROJ_DIR$\Debug\Obj\MSP430_NODE.pbd</name>
+      <name>$PROJ_DIR$\main.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 40</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 19</file>
+        </tool>
+      </outputs>
       <inputs>
         <tool>
-          <name>BILINK</name>
-          <file> 0 41 26 44 27 20 5 47 10 1 49</file>
+          <name>ICC430</name>
+          <file> 32 46 28</file>
         </tool>
       </inputs>
     </file>
@@ -315,7 +306,16 @@
       <inputs>
         <tool>
           <name>BILINK</name>
-          <file> 44</file>
+          <file> 40</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Obj\MSP430_NODE.pbd</name>
+      <inputs>
+        <tool>
+          <name>BILINK</name>
+          <file> 25 52 30 40 0 16 29 45 14 31 53</file>
         </tool>
       </inputs>
     </file>
@@ -324,7 +324,7 @@
       <inputs>
         <tool>
           <name>XLINK</name>
-          <file> 54 29 21 53</file>
+          <file> 33 26 19 34</file>
         </tool>
       </inputs>
     </file>
@@ -336,260 +336,99 @@
   <configuration>
     <name>Release</name>
     <outputs>
-      <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
-      <file>$TOOLKIT_DIR$\lib\clib\cl430xsf.r43</file>
-      <file>$PROJ_DIR$\src\power_clk.h</file>
-      <file>$PROJ_DIR$\src\protocol.c</file>
-      <file>$PROJ_DIR$\src\msp430x54xA_adc12_02.c</file>
-      <file>$PROJ_DIR$\src\protocol.h</file>
+      <file>$PROJ_DIR$\src\i2c.c</file>
+      <file>$PROJ_DIR$\src\ir_lora.h</file>
+      <file>$PROJ_DIR$\src\main.c</file>
+      <file>$PROJ_DIR$\src\power_clk.c</file>
       <file>$PROJ_DIR$\src\msp430x54xA_uart_1.c</file>
-      <file>$PROJ_DIR$\src\timer.c</file>
+      <file>$PROJ_DIR$\src\power_clk.h</file>
       <file>$PROJ_DIR$\src\key.c</file>
       <file>$PROJ_DIR$\src\led.c</file>
+      <file>$PROJ_DIR$\src\msp430x54xA_adc12_02.c</file>
+      <file>$PROJ_DIR$\src\msp430x54xA_uart_2.c</file>
+      <file>$PROJ_DIR$\src\protocol.c</file>
+      <file>$PROJ_DIR$\src\msp430x54xA_uart_3.c</file>
+      <file>$PROJ_DIR$\src\timer.c</file>
+      <file>$PROJ_DIR$\src\uart.h</file>
+      <file>$PROJ_DIR$\src\led.h</file>
       <file>$PROJ_DIR$\src\msp430x54xA_uart_0.c</file>
       <file>$PROJ_DIR$\src\ir_lora.c</file>
-      <file>$PROJ_DIR$\src\main.c</file>
-      <file>$PROJ_DIR$\src\i2c.c</file>
-      <file>$PROJ_DIR$\src\msp430x54xA_uart_3.c</file>
-      <file>$PROJ_DIR$\src\ir_lora.h</file>
-      <file>$PROJ_DIR$\src\msp430x54xA_uart_2.c</file>
-      <file>$PROJ_DIR$\src\led.h</file>
-      <file>$PROJ_DIR$\src\power_clk.c</file>
-      <file>$TOOLKIT_DIR$\inc\msp430x54x.h</file>
+      <file>$PROJ_DIR$\src\protocol.h</file>
       <file>$TOOLKIT_DIR$\inc\msp430.h</file>
-      <file>$TOOLKIT_DIR$\config\multiplier32_loc2.xcl</file>
-      <file>$PROJ_DIR$\src\uart.h</file>
       <file>$PROJ_DIR$\src\utils.c</file>
+      <file>$TOOLKIT_DIR$\config\multiplier32_loc2.xcl</file>
+      <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
+      <file>$TOOLKIT_DIR$\inc\msp430x54x.h</file>
+      <file>$PROJ_DIR$\Release\Obj\msp430x54xA_uart_3.pbi</file>
       <file>$TOOLKIT_DIR$\inc\clib\string.h</file>
       <file>$PROJ_DIR$\Release\Obj\main.r43</file>
       <file>$PROJ_DIR$\Release\Obj\timer.pbi</file>
-      <file>$PROJ_DIR$\Release\Obj\i2c.pbi</file>
-      <file>$PROJ_DIR$\Release\Obj\power_clk.r43</file>
-      <file>$PROJ_DIR$\Release\Obj\msp430x54xA_uart_0.r43</file>
-      <file>$PROJ_DIR$\Release\Obj\i2c.r43</file>
-      <file>$PROJ_DIR$\Release\Obj\msp430x54xA_uart_1.r43</file>
-      <file>$PROJ_DIR$\Release\Obj\ir_lora.pbi</file>
       <file>$PROJ_DIR$\Release\Obj\msp430x54xA_adc12_02.r43</file>
-      <file>$PROJ_DIR$\Release\Obj\msp430x54xA_uart_2.pbi</file>
-      <file>$PROJ_DIR$\Release\Obj\utils.pbi</file>
-      <file>$PROJ_DIR$\Release\Obj\msp430x54xA_uart_0.pbi</file>
-      <file>$PROJ_DIR$\Release\Obj\power_clk.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\msp430x54xA_uart_0.r43</file>
       <file>$TOOLKIT_DIR$\inc\clib\stdlib.h</file>
-      <file>$PROJ_DIR$\Release\Obj\ir_lora.r43</file>
-      <file>$PROJ_DIR$\Release\Obj\key.r43</file>
-      <file>$PROJ_DIR$\Release\Exe\MSP430_UART.d43</file>
-      <file>$PROJ_DIR$\Release\Obj\msp430x54xA_uart_3.pbi</file>
       <file>$PROJ_DIR$\Release\Obj\msp430x54xA_uart_3.r43</file>
+      <file>$PROJ_DIR$\Release\Obj\msp430x54xA_uart_2.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\msp430x54xA_uart_1.r43</file>
+      <file>$PROJ_DIR$\Release\Obj\msp430x54xA_uart_0.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\key.r43</file>
+      <file>$PROJ_DIR$\Release\Obj\power_clk.r43</file>
+      <file>$PROJ_DIR$\Release\Exe\MSP430_UART.d43</file>
+      <file>$PROJ_DIR$\Release\Obj\power_clk.pbi</file>
+      <file>$TOOLKIT_DIR$\config\lnk430F5438A.xcl</file>
+      <file>$PROJ_DIR$\Release\Obj\i2c.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\ir_lora.pbi</file>
+      <file>$TOOLKIT_DIR$\lib\clib\cl430xsf.r43</file>
+      <file>$PROJ_DIR$\Release\Obj\i2c.r43</file>
+      <file>$PROJ_DIR$\Release\Obj\utils.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\ir_lora.r43</file>
+      <file>$PROJ_DIR$\Release\Obj\utils.r43</file>
+      <file>$PROJ_DIR$\Release\Obj\led.r43</file>
+      <file>$PROJ_DIR$\Release\Obj\timer.r43</file>
       <file>$PROJ_DIR$\Release\Obj\key.pbi</file>
       <file>$PROJ_DIR$\Release\Obj\led.pbi</file>
       <file>$PROJ_DIR$\Release\Obj\msp430x54xA_uart_2.r43</file>
       <file>$PROJ_DIR$\Release\Obj\msp430x54xA_adc12_02.pbi</file>
-      <file>$TOOLKIT_DIR$\inc\in430.h</file>
-      <file>$PROJ_DIR$\Release\Obj\msp430x54xA_uart_1.pbi</file>
-      <file>$PROJ_DIR$\Release\Obj\led.r43</file>
-      <file>$TOOLKIT_DIR$\inc\clib\stdio.h</file>
-      <file>$PROJ_DIR$\Release\Obj\utils.r43</file>
-      <file>$PROJ_DIR$\src\utils.h</file>
-      <file>$PROJ_DIR$\Release\Obj\timer.r43</file>
       <file>$PROJ_DIR$\Release\Obj\MSP430_NODE.pbd</file>
       <file>$PROJ_DIR$\Release\Obj\protocol.pbi</file>
-      <file>$TOOLKIT_DIR$\inc\msp430f5438a.h</file>
+      <file>$PROJ_DIR$\Release\Obj\msp430x54xA_uart_1.pbi</file>
       <file>$PROJ_DIR$\Release\Obj\main.pbi</file>
       <file>$TOOLKIT_DIR$\inc\clib\sysmac.h</file>
       <file>$TOOLKIT_DIR$\inc\clib\stdarg.h</file>
       <file>$PROJ_DIR$\Release\Obj\protocol.r43</file>
-      <file>$TOOLKIT_DIR$\config\lnk430F5438A.xcl</file>
+      <file>$TOOLKIT_DIR$\inc\clib\stdio.h</file>
+      <file>$TOOLKIT_DIR$\inc\in430.h</file>
+      <file>$PROJ_DIR$\src\utils.h</file>
+      <file>$TOOLKIT_DIR$\inc\msp430f5438a.h</file>
     </outputs>
     <file>
       <name>[ROOT_NODE]</name>
       <outputs>
         <tool>
           <name>XLINK</name>
-          <file> 41</file>
-        </tool>
-      </outputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\src\protocol.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 56</file>
-        </tool>
-        <tool>
-          <name>ICC430</name>
-          <file> 61</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 5 38 59 51 60 24 15 20 57 48 0 2</file>
-        </tool>
-        <tool>
-          <name>ICC430</name>
-          <file> 5 38 59 51 60 24 15 20 57 48 0 2</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\src\msp430x54xA_adc12_02.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 47</file>
-        </tool>
-        <tool>
-          <name>ICC430</name>
-          <file> 33</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 20 57 48 0</file>
-        </tool>
-        <tool>
-          <name>ICC430</name>
-          <file> 20 57 48 0</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\src\msp430x54xA_uart_1.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 49</file>
-        </tool>
-        <tool>
-          <name>ICC430</name>
-          <file> 31</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 20 57 48 0 38 59 51 60 24</file>
-        </tool>
-        <tool>
-          <name>ICC430</name>
-          <file> 20 57 48 0 53 38 59 51 60 24 5 22 15</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\src\timer.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 26</file>
-        </tool>
-        <tool>
-          <name>ICC430</name>
-          <file> 54</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 20 57 48 0 51 60 59 24 38</file>
-        </tool>
-        <tool>
-          <name>ICC430</name>
-          <file> 20 57 48 0 51 60 59 24 38</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\src\key.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 44</file>
-        </tool>
-        <tool>
-          <name>ICC430</name>
-          <file> 40</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 19 48 0 38 59 51 60 24</file>
-        </tool>
-        <tool>
-          <name>ICC430</name>
-          <file> 19 48 0 38 59 51 60 24 5 2</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\src\led.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 45</file>
-        </tool>
-        <tool>
-          <name>ICC430</name>
-          <file> 50</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 20 57 48 0 38 59 51 60 2 24</file>
-        </tool>
-        <tool>
-          <name>ICC430</name>
-          <file> 20 57 48 0 38 59 51 60 2 24</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\src\msp430x54xA_uart_0.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
           <file> 36</file>
         </tool>
-        <tool>
-          <name>ICC430</name>
-          <file> 29</file>
-        </tool>
       </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 20 57 48 0 38 59 51 60 24</file>
-        </tool>
-        <tool>
-          <name>ICC430</name>
-          <file> 20 57 48 0 53 38 59 51 60 24 5 22</file>
-        </tool>
-      </inputs>
     </file>
     <file>
-      <name>$PROJ_DIR$\src\ir_lora.c</name>
+      <name>$PROJ_DIR$\src\i2c.c</name>
       <outputs>
         <tool>
           <name>BICOMP</name>
-          <file> 32</file>
+          <file> 39</file>
         </tool>
         <tool>
           <name>ICC430</name>
-          <file> 39</file>
+          <file> 42</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
           <name>BICOMP</name>
-          <file> 15 38 59 51 60 24 22 5 53 20 57 48 0 2</file>
+          <file> 18 62 60 21 29 56 59 57 24 5</file>
         </tool>
         <tool>
           <name>ICC430</name>
-          <file> 15 38 59 51 60 24 5 22 53 20 57 48 0 2</file>
+          <file> 18 62 60 21 29 56 59 57 24 5</file>
         </tool>
       </inputs>
     </file>
@@ -598,7 +437,7 @@
       <outputs>
         <tool>
           <name>BICOMP</name>
-          <file> 58</file>
+          <file> 55</file>
         </tool>
         <tool>
           <name>ICC430</name>
@@ -608,80 +447,11 @@
       <inputs>
         <tool>
           <name>BICOMP</name>
-          <file> 19 48 0 38 59 51 60 24</file>
+          <file> 22 60 21 29 56 59 57 24</file>
         </tool>
         <tool>
           <name>ICC430</name>
-          <file> 19 48 0 38 59 51 60 24 22</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\src\i2c.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 27</file>
-        </tool>
-        <tool>
-          <name>ICC430</name>
-          <file> 30</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 20 57 48 0 38 59 51 60 24 2</file>
-        </tool>
-        <tool>
-          <name>ICC430</name>
-          <file> 20 57 48 0 38 59 51 60 24 2</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\src\msp430x54xA_uart_3.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 42</file>
-        </tool>
-        <tool>
-          <name>ICC430</name>
-          <file> 43</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 20 57 48 0 38 59 51 60 24</file>
-        </tool>
-        <tool>
-          <name>ICC430</name>
-          <file> 20 57 48 0 53 38 59 51 60 24 5 22</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\src\msp430x54xA_uart_2.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 34</file>
-        </tool>
-        <tool>
-          <name>ICC430</name>
-          <file> 46</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 20 57 48 0 38 59 51 60 24</file>
-        </tool>
-        <tool>
-          <name>ICC430</name>
-          <file> 20 57 48 0 53 38 59 51 60 24 5 22</file>
+          <file> 22 60 21 29 56 59 57 24 13</file>
         </tool>
       </inputs>
     </file>
@@ -694,17 +464,247 @@
         </tool>
         <tool>
           <name>ICC430</name>
+          <file> 35</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 18 62 60 21 29 56 59 57 24</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 18 62 60 21 29 56 59 57 24</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\msp430x54xA_uart_1.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 54</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 32</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 18 62 60 21 29 56 59 57 24</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 18 62 60 21 61 29 56 59 57 24 17 13 1</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\key.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 48</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 34</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 22 60 21 29 56 59 57 24</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 22 60 21 29 56 59 57 24 17 5</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\led.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 49</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 46</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 18 62 60 21 29 56 59 57 5 24</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 18 62 60 21 29 56 59 57 5 24</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\msp430x54xA_adc12_02.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 51</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 27</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 18 62 60 21</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 18 62 60 21</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\msp430x54xA_uart_2.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 31</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 50</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 18 62 60 21 29 56 59 57 24</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 18 62 60 21 61 29 56 59 57 24 17 13</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\protocol.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 53</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 58</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 17 29 56 59 57 24 1 18 62 60 21 5</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 17 29 56 59 57 24 1 18 62 60 21 5</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\msp430x54xA_uart_3.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 23</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 30</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 18 62 60 21 29 56 59 57 24</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 18 62 60 21 61 29 56 59 57 24 17 13</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\timer.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 26</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 47</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 18 62 60 21 59 57 56 24 29</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 18 62 60 21 59 57 56 24 29</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\msp430x54xA_uart_0.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 33</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
           <file> 28</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
           <name>BICOMP</name>
-          <file> 20 57 48 0 38 59 51 60 24</file>
+          <file> 18 62 60 21 29 56 59 57 24</file>
         </tool>
         <tool>
           <name>ICC430</name>
-          <file> 20 57 48 0 38 59 51 60 24</file>
+          <file> 18 62 60 21 61 29 56 59 57 24 17 13</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\ir_lora.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 40</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 44</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 1 29 56 59 57 24 13 17 61 18 62 60 21 5</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 1 29 56 59 57 24 17 13 61 18 62 60 21 5</file>
         </tool>
       </inputs>
     </file>
@@ -713,21 +713,21 @@
       <outputs>
         <tool>
           <name>BICOMP</name>
-          <file> 35</file>
+          <file> 43</file>
         </tool>
         <tool>
           <name>ICC430</name>
-          <file> 52</file>
+          <file> 45</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
           <name>BICOMP</name>
-          <file> 20 57 48 0</file>
+          <file> 18 62 60 21</file>
         </tool>
         <tool>
           <name>ICC430</name>
-          <file> 20 57 48 0 53</file>
+          <file> 18 62 60 21 61</file>
         </tool>
       </inputs>
     </file>
@@ -736,7 +736,7 @@
       <inputs>
         <tool>
           <name>XLINK</name>
-          <file> 62 21 30 39 40 50 25 33 29 31 46 43 28 61 54 52 1</file>
+          <file> 38 20 42 44 34 46 25 27 28 32 50 30 35 58 47 45 41</file>
         </tool>
       </inputs>
     </file>
@@ -745,7 +745,7 @@
       <inputs>
         <tool>
           <name>BILINK</name>
-          <file> 27 32 44 45 58 47 36 49 34 42 37 56 26 35</file>
+          <file> 39 40 48 49 55 51 33 54 31 23 37 53 26 43</file>
         </tool>
       </inputs>
     </file>

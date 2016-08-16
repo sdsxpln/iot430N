@@ -205,6 +205,7 @@ int write_sn(char * buf)
     g_node_addr=get_addr_from_sn(g_sn,SN_LEN);
     printf("node_addr=%d 0x%02x\r\n",(unsigned short)g_node_addr,(unsigned short)g_node_addr); 
     set_lora_addr(g_node_addr);
+    flash_led0_fast(10);
 }
 
 
@@ -245,6 +246,7 @@ int write_hub_sn(char * buf)
     read_hub_sn(g_hub_sn);
     g_hub_addr=get_addr_from_sn(g_hub_sn,SN_LEN);
     printf("g_hub_addr=%d 0x%02x\r\n",(unsigned short)g_hub_addr,(unsigned short)g_hub_addr); 
+    flash_led0_fast(10);
 }
 //ok
 int read_hub_sn(unsigned char * buf)
