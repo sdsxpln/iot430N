@@ -317,7 +317,7 @@
         </option>
         <option>
           <name>newCCIncludePaths</name>
-          <state></state>
+          <state>../src</state>
         </option>
         <option>
           <name>CCStdIncCheck</name>
@@ -640,7 +640,7 @@
         </option>
         <option>
           <name>OutputFile</name>
-          <state>MSP430_UART.txt</state>
+          <state>MSP430_UART.d43</state>
         </option>
         <option>
           <name>OutputFormat</name>
@@ -798,7 +798,7 @@
         </option>
         <option>
           <name>DebugInformation</name>
-          <state>1</state>
+          <state>0</state>
         </option>
         <option>
           <name>RuntimeControl</name>
@@ -834,7 +834,7 @@
         </option>
         <option>
           <name>ExtraOutputFile</name>
-          <state>MSP430_UART.a43</state>
+          <state>MSP430_NODE.a43</state>
         </option>
         <option>
           <name>ExtraOutputFormat</name>
@@ -1870,6 +1870,15 @@
   </configuration>
   <group>
     <name>src</name>
+    <file>
+      <name>$PROJ_DIR$\src\HAL_MACROS.h</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\HAL_UCS.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\HAL_UCS.h</name>
+    </file>
     <file>
       <name>$PROJ_DIR$\src\i2c.c</name>
     </file>

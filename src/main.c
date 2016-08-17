@@ -51,15 +51,16 @@ by：梦想电子工作室
 #include  <uart.h>
 void watchDog_close(void);
 
+void clock_init(void)
+{
+}
 
 void board_init(void)
 {
-  //init_clk();
+  //set_xt2_to_source();
   watchDog_close();
   ir_power_on();
- //ir_power_off();
   lora_power_on();
- // lora_power_off();
   log_uart0_init();
   ir_uart1_init();
   lora_uart2_init();
@@ -72,7 +73,7 @@ extern int get_search_cmd;
 void main(void)
 {
   board_init();
-  printf("\r\nDevice Running\r\n");
+  printf("\r\nxDevice Running\r\n");
   init_lora_device();
   flash_led0_slow(4);//show we begin to run
   while(1)

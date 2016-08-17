@@ -1,6 +1,8 @@
 #include <msp430.h>
 #include <utils.h>
-
+#include <stdlib.h>
+#include <stdio.h>
+#include <string.h>
 void watchDog_close(void)
 {
     WDTCTL = WDTPW + WDTHOLD;                 // Stop WDT

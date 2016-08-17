@@ -81,7 +81,7 @@ void lora_uart2_init(void)
   P9SEL = 0x30;                             // P9.4,5 = USCI_A2 TXD/RXD
   UCA2CTL1 |= UCSWRST;                      // **Put state machine in reset**
   UCA2CTL1 |= UCSSEL_2;                     // SMCLK
-  UCA2BR0 = 109;                              // 1MHz 115200 (see User's Guide)
+  UCA2BR0 = 109;//109;                              // 1MHz 115200 (see User's Guide)
   UCA2BR1 = 0;                              // 1MHz 115200
   UCA2MCTL |= UCBRS_2 + UCBRF_0;            // Modulation UCBRSx=1, UCBRFx=0
   UCA2CTL1 &= ~UCSWRST;                     // **Initialize USCI state machine**
@@ -169,13 +169,16 @@ void process_lora_uart2(void)
           len=0;
           while(recv_buf_len2<(total_len-tmp_len))
           {   
-            printf("*");
+            //printf("*");
           } 
           uart2_read(buf+tmp_len,256-tmp_len,&len);
           tmp_len=tmp_len+len;
         }
-        led0_flash_data();
+        led0_flash_data(); 
+        UCA2IE &=~ UCRXIE;  
         parse_data(buf,total_len);
+       // dump_data(buf,total_len);
+         UCA2IE |= UCRXIE;  
         memset(buf,0,256); 
       }
     }

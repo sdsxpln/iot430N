@@ -15,8 +15,21 @@ Control Register=0
 NextState0=0
 NextState1=0
 [Action Register]
-Break=0
+Break=1
 State Storage=0
+[DebugChecksum]
+Checksum=-1823806394
+[CallStack]
+ShowArgs=0
+[Disassembly]
+MixedMode=1
+[CallStackLog]
+Enabled=0
+[DriverProfiling]
+Enabled=0
+Mode=0
+Graph=0
+Symbiont=0
 [Log file]
 LoggingEnabled=_ 0
 LogFile=_ ""
@@ -25,7 +38,7 @@ Category=_ 0
 LoggingEnabled=_ 0
 LogFile=_ ""
 [Breakpoints]
-Bp0=_ "STD_CODE" "{$PROJ_DIR$\src\ir_lora.c}.259.25" 1 0 0 0 "" 0 ""
+Bp0=_ "STD_CODE" "{$PROJ_DIR$\src\HAL_UCS.c}.209.9" 0 0 0 0 "" 0 ""
 Count=1
 [FET]
 Clock mode=14

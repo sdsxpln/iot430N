@@ -151,9 +151,11 @@ int process_lora_msg(unsigned char *buf,int len)
 int process_ir_msg(unsigned char *buf,int len)
 {
   int read=0;
-  printf("%s %d\r\n",__func__,__LINE__);
+  unsigned char cmd=0xe3;
+  printf("%s %d\r\n",__func__,len);
   if(buf)
   {
+    ir_write(&cmd,1);
     ir_write(buf,len);
     return 0;
   }
