@@ -83,8 +83,8 @@ void init_lora_device(void)
 #   endif
    printf("use node_addr=0x%02x\r\n",(unsigned short)g_node_addr);
    lora_gpio_init();
-  lora_mode_config(LORA_MODE_SLEEP);
-  get_lora_param(lora_config);
+ // lora_mode_config(LORA_MODE_SLEEP);
+ // get_lora_param(lora_config);
   lora_mode_config(LORA_MODE_NORMAL);
 
 }

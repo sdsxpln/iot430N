@@ -26,13 +26,13 @@ void process_key(void)
         printf("key pressed\r\n"); 
         flash_led0_fast(10);
         if((get_search_cmd==1)||(strlen(g_hub_sn)==SN_LEN))
-        {  
-            send_join();      
+        {           
             if(get_search_cmd==1)
             {
               update_hub_sn(); 
               get_search_cmd=0;
             }
+            send_join();    
         }
       }
     }
