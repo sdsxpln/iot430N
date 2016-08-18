@@ -151,11 +151,9 @@ int process_lora_msg(unsigned char *buf,int len)
 int process_ir_msg(unsigned char *buf,int len)
 {
   int read=0;
-  unsigned char cmd=0xe3;
   printf("%s %d\r\n",__func__,len);
   if(buf)
   {
-    ir_write(&cmd,1);
     ir_write(buf,len);
     return 0;
   }
@@ -168,7 +166,7 @@ int process_mcu_msg(unsigned char *buf,int len)
   char * SN=NULL;
   char sn[40];
   char sn_tmp[30];
-    printf("%s %d\r\n",__func__,__LINE__);
+  printf("%s %d\r\n",__func__,__LINE__);
   memset(sn,0,sizeof(sn));
   if(buf)
   {

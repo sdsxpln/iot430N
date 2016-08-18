@@ -1871,15 +1871,6 @@
   <group>
     <name>src</name>
     <file>
-      <name>$PROJ_DIR$\src\HAL_MACROS.h</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\src\HAL_UCS.c</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\src\HAL_UCS.h</name>
-    </file>
-    <file>
       <name>$PROJ_DIR$\src\i2c.c</name>
     </file>
     <file>
